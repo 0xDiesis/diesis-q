@@ -35,3 +35,6 @@ All generated modules passed local compilation or loading. Codec checks cover
 large integers and representative Diesis ABI values; all 221 event definitions
 passed independent fixtures in q. These checks do not establish live Diesis RPC
 qualification. See the parent workspace's SDK validation reports for full evidence.
+
+For a build stored outside the source checkout, set `DIESIS_ARTIFACTS_DIR`
+to the compiled artifact directory. The generator uses it instead of `out/`.
